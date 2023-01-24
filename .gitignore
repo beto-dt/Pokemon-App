@@ -1,0 +1,8 @@
+.dart_tool
+/linux
+/macos
+/web
+/windows
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
