@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemon_dt_app/pages/home_screen.dart';
+import 'package:pokemon_dt_app/page/pokedex/pokedex-page.dart';
 
 void main() {
   runApp(const PokemonDT());
@@ -11,7 +11,8 @@ class PokemonDT extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
+      home: PokedexPage(),
     );
   }
 }
